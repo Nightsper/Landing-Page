@@ -121,7 +121,7 @@ a {
 .cta-box {
   display: flex;
   color: #f9faf8;
-  gap: 200px;
+  align-items: space-between;
   border-radius: 5px;
   background-color: #3882f6;
   padding: 20px 30px;
@@ -129,6 +129,9 @@ a {
 
 .cta-box .signup-btn {
   border: solid #f9faf8 2px;
+}
+.signup-btn {
+  box-sizing: border-box;
 }
 
 .footer {
