@@ -68,12 +68,18 @@ a {
 }
 
 .signup-btn {
+  width: 100px;
+  height: 40px;
+  padding: 5px 25px;
+  box-sizing: border-box;
+  
   font-weight: 700;
   background-color: #3882f6;
-  padding: 5px 25px;
   border-radius: 7px;
   color: #f9faf8;
   border: none;
+  
+  align-self: center;
 }
 
 .info-header {
@@ -124,14 +130,12 @@ a {
   align-items: space-between;
   border-radius: 5px;
   background-color: #3882f6;
-  padding: 20px 30px;
+  padding: 20px 50px;
+  gap: 150px;
 }
 
 .cta-box .signup-btn {
   border: solid #f9faf8 2px;
-}
-.signup-btn {
-  box-sizing: border-box;
 }
 
 .footer {
